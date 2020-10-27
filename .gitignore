@@ -1,0 +1,6 @@
+#tiedostot, joiden pääte on tmp
+*.tmp
+
+#hakemistot, joiden nimi on build ja .gradle
+build/
+.gradle/
