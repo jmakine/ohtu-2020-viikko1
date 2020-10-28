@@ -39,7 +39,7 @@ public class VarastoTest {
     @Test
     public void konstruktoriArvoillaToimii() {
         assertEquals(0, newVarasto.getSaldo(), vertailuTarkkuus);
-        assertEquals(100, newVarasto.getTilavuus(), vertailuTarkkuus);
+        assertEquals(10, newVarasto.getTilavuus(), vertailuTarkkuus);
         assertEquals(0, newNollaVarasto.getSaldo(), vertailuTarkkuus);
         assertEquals(0, newNollaVarasto.getTilavuus(), vertailuTarkkuus);       
     }
